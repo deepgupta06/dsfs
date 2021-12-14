@@ -50,3 +50,44 @@
   3. Write a Python Program for array rotation?
   4. Write a Python Program to Split the array and add the first part to the end?
   5. Write a Python Program to check if given array is Monotonic?
+
+[**Python Programming Basic Assignment_8.ipynb**](https://github.com/deepgupta06/dsfs/blob/main/Assignment/Python%20Programming%20Basic%20Assignment/Python%20Programming%20Basic%20Assignment_8.ipynb)
+  1.	Write a Python Program to Add Two Matrices?
+  2.	Write a Python Program to Multiply Two Matrices?
+  3.	Write a Python Program to Transpose a Matrix?
+  4.	Write a Python Program to Sort Words in Alphabetic Order?
+  5.	Write a Python Program to Remove Punctuation From a String?
+
+[**Python Programming Basic Assignment_9.ipynb**](https://github.com/deepgupta06/dsfs/blob/main/Assignment/Python%20Programming%20Basic%20Assignment/Python%20Programming%20Basic%20Assignment_9.ipynb)
+  1.	Write a Python program to check if the given number is a Disarium Number?
+  2.	Write a Python program to print all disarium numbers between 1 to 100?
+  3.	Write a Python program to check if the given number is Happy Number?
+  4.	Write a Python program to print all happy numbers between 1 and 100?
+  5.	Write a Python program to determine whether the given number is a Harshad Number?
+  6.	Write a Python program to print all pronic numbers between 1 and 100?
+
+[**Python Programming Basic Assignment_10.ipynb**](https://github.com/deepgupta06/dsfs/blob/main/Assignment/Python%20Programming%20Basic%20Assignment/Python%20Programming%20Basic%20Assignment_10.ipynb)
+  1.	Write a Python program to find sum of elements in list?
+  2.	Write a Python program to  Multiply all numbers in the list?
+  3.	Write a Python program to find smallest number in a list?
+  4.	Write a Python program to find largest number in a list?
+  5.	Write a Python program to find second largest number in a list?
+  6.	Write a Python program to find N largest elements from a list?
+  7.	Write a Python program to print even numbers in a list?
+  8.	Write a Python program to print odd numbers in a List?
+  9.	Write a Python program to Remove empty List from List?
+  10.	Write a Python program to Cloning or Copying a list?
+  11.	Write a Python program to Count occurrences of an element in a list?
+
+[**Python Programming Basic Assignment_11.ipynb**](https://github.com/deepgupta06/dsfs/blob/main/Assignment/Python%20Programming%20Basic%20Assignment/Python%20Programming%20Basic%20Assignment_11.ipynb)
+  1.	Write a Python program to find words which are greater than given length k?
+  2.	Write a Python program for removing i-th character from a string?
+  3.	Write a Python program to split and join a string?
+  4.	Write a Python to check if a given string is binary string or not?
+  5.	Write a Python program to find uncommon words from two Strings?
+  6.	Write a Python to find all duplicate characters in string?
+  7.	Write a Python Program to check if a string contains any special character?
+
+
+
+
