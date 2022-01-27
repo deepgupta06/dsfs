@@ -337,17 +337,360 @@
 
 [**Python Programming Basic Assignment_18.ipynb**](https://github.com/deepgupta06/dsfs/blob/main/Assignment/Python%20Programming%20Basic%20Assignment/Python%20Programming%20Basic%20Assignment_18.ipynb)
 
+  1. Create a function that takes a list of non-negative integers and strings and return a new list without the strings.
+
+      Examples
+      filter_list([1, 2, "a", "b"]) ➞ [1, 2]
+      filter_list([1, "a", "b", 0, 15]) ➞ [1, 0, 15]
+      filter_list([1, 2, "aasf", "1", "123", 123]) ➞ [1, 2, 123]
+
+  2. The "Reverser" takes a string as input and returns that string in reverse order, with the opposite case.
+
+      Examples
+      reverse("Hello World") ➞ "DLROw OLLEh"
+      reverse("ReVeRsE") ➞ "eSrEvEr"
+      reverse("Radar") ➞ "RADAr"
+
+  3. You can assign variables from lists like this:
+      lst = [1, 2, 3, 4, 5, 6]
+      first = lst[0]
+      middle = lst[1:-1]
+      last = lst[-1]
+
+      print(first) ➞ outputs 1
+      print(middle) ➞ outputs [2, 3, 4, 5]
+      print(last) ➞ outputs 6
+
+      With Python 3, you can assign variables from lists in a much more succinct way. Create variables first, middle and last from the given list using destructuring assignment       (check the Resources tab for some examples), where:
+      first  ➞ 1
+
+      middle ➞ [2, 3, 4, 5]
+
+      last ➞ 6
+      Your task is to unpack the list writeyourcodehere into three variables, being first, middle, and last, with middle being everything in between the first and last element.       Then print all three variables.
+
+  4. Write a function that calculates the factorial of a number recursively.
+
+      Examples
+      factorial(5) ➞ 120
+      factorial(3) ➞ 6
+      factorial(1) ➞ 1
+      factorial(0) ➞ 1
+
+  5. Write a function that moves all elements of one type to the end of the list.
+
+      Examples
+      move_to_end([1, 3, 2, 4, 4, 1], 1) ➞ [3, 2, 4, 4, 1, 1]
+      # Move all the 1s to the end of the array.
+      move_to_end([7, 8, 9, 1, 2, 3, 4], 9) ➞ [7, 8, 1, 2, 3, 4, 9]
+      move_to_end(["a", "a", "a", "b"], "a") ➞ ["b", "a", "a", "a"]
+
 [**Python Programming Basic Assignment_19.ipynb**](https://github.com/deepgupta06/dsfs/blob/main/Assignment/Python%20Programming%20Basic%20Assignment/Python%20Programming%20Basic%20Assignment_19.ipynb)
+
+  1. Create a function that takes a string and returns a string in which each character is repeated once.
+
+      Examples
+      double_char("String") ➞ "SSttrriinngg"
+      double_char("Hello World!") ➞ "HHeelllloo  WWoorrlldd!!"
+      double_char("1234!_ ") ➞ "11223344!!__  "
+
+  2. Create a function that reverses a boolean value and returns the string "boolean expected" if another variable type is given.
+
+      Examples
+      reverse(True) ➞ False
+      reverse(False) ➞ True
+      reverse(0) ➞ "boolean expected"
+      reverse(None) ➞ "boolean expected"
+
+  3. Create a function that returns the thickness (in meters) of a piece of paper after folding it n number of times. The paper starts off with a thickness of 0.5mm.
+
+      Examples
+      num_layers(1) ➞ "0.001m"
+      # Paper folded once is 1mm (equal to 0.001m)
+      num_layers(4) ➞ "0.008m"
+      # Paper folded 4 times is 8mm (equal to 0.008m)
+      num_layers(21) ➞ "1048.576m"
+      # Paper folded 21 times is 1048576mm (equal to 1048.576m)
+
+  4. Create a function that takes a single string as argument and returns an ordered list containing the indices of all capital letters in the string.
+
+      Examples
+      index_of_caps("eDaBiT") ➞ [1, 3, 5]
+      index_of_caps("eQuINoX") ➞ [1, 3, 4, 6]
+      index_of_caps("determine") ➞ []
+      index_of_caps("STRIKE") ➞ [0, 1, 2, 3, 4, 5]
+      index_of_caps("sUn") ➞ [1]
+
+  5. Using list comprehensions, create a function that finds all even numbers from 1 to the given number.
+
+      Examples
+      find_even_nums(8) ➞ [2, 4, 6, 8]
+      find_even_nums(4) ➞ [2, 4]
+      find_even_nums(2) ➞ [2]
+
+
 
 [**Python Programming Basic Assignment_20.ipynb**](https://github.com/deepgupta06/dsfs/blob/main/Assignment/Python%20Programming%20Basic%20Assignment/Python%20Programming%20Basic%20Assignment_20.ipynb)
 
+  1. Create a function that takes a list of strings and integers, and filters out the list so that it returns a list of integers only.
+
+        Examples
+        filter_list([1, 2, 3, "a", "b", 4]) ➞ [1, 2, 3, 4]
+        filter_list(["A", 0, "Edabit", 1729, "Python", "1729"]) ➞ [0, 1729]
+        filter_list(["Nothing", "here"]) ➞ []
+
+  2. Given a list of numbers, create a function which returns the list but with each element's index in the list added to itself. This means you add 0 to the number at index 0,      add 1 to the number at index 1, etc...
+
+        Examples
+        add_indexes([0, 0, 0, 0, 0]) ➞ [0, 1, 2, 3, 4]
+        add_indexes([1, 2, 3, 4, 5]) ➞ [1, 3, 5, 7, 9]
+        add_indexes([5, 4, 3, 2, 1]) ➞ [5, 5, 5, 5, 5]
+
+  3. Create a function that takes the height and radius of a cone as arguments and returns the volume of the cone rounded to the nearest hundredth. See the resources tab for the      formula.
+ 
+        Examples
+        cone_volume(3, 2) ➞ 12.57
+        cone_volume(15, 6) ➞ 565.49
+        cone_volume(18, 0) ➞ 0
+
+  4. This Triangular Number Sequence is generated from a pattern of dots that form a triangle. The first 5 numbers of the sequence, or dots, are: 
+     1, 3, 6, 10, 15
+     This means that the first triangle has just one dot, the second one has three dots, the third one has 6 dots and so on.
+     Write a function that gives the number of dots with its corresponding triangle number of the sequence.
+
+        Examples
+        triangle(1) ➞ 1
+        triangle(6) ➞ 21
+        triangle(215) ➞ 23220
+
+  5. Create a function that takes a list of numbers between 1 and 10 (excluding one number) and returns the missing number.
+
+        Examples
+        missing_num([1, 2, 3, 4, 6, 7, 8, 9, 10]) ➞ 5
+        missing_num([7, 2, 3, 6, 5, 9, 1, 4, 8]) ➞ 10
+        missing_num([10, 5, 1, 2, 4, 6, 8, 3, 9]) ➞ 7
+
 [**Python Programming Basic Assignment_21.ipynb**](https://github.com/deepgupta06/dsfs/blob/main/Assignment/Python%20Programming%20Basic%20Assignment/Python%20Programming%20Basic%20Assignment_21.ipynb)
+
+   1. Write a function that takes a list and a number as arguments. Add the number to the end of the list, then remove the first element of the list. The function should then         return the updated list.
+
+        Examples
+        next_in_line([5, 6, 7, 8, 9], 1) ➞ [6, 7, 8, 9, 1]
+        next_in_line([7, 6, 3, 23, 17], 10) ➞ [6, 3, 23, 17, 10]
+        next_in_line([1, 10, 20, 42 ], 6) ➞ [10, 20, 42, 6]
+        next_in_line([], 6) ➞ "No list has been selected"
+
+   2. Create the function that takes a list of dictionaries and returns the sum of people's budgets.
+
+        Examples
+        get_budgets([
+          { "name": "John", "age": 21, "budget": 23000 },
+          { "name": "Steve",  "age": 32, "budget": 40000 },
+          { "name": "Martin",  "age": 16, "budget": 2700 }
+        ]) ➞ 65700
+
+        get_budgets([
+          { "name": "John",  "age": 21, "budget": 29000 },
+          { "name": "Steve",  "age": 32, "budget": 32000 },
+          { "name": "Martin",  "age": 16, "budget": 1600 }
+        ]) ➞ 62600
+
+   3. Create a function that takes a string and returns a string with its letters in alphabetical order.
+
+          Examples
+          alphabet_soup("hello") ➞ "ehllo"
+          alphabet_soup("edabit") ➞ "abdeit"\
+          alphabet_soup("hacker") ➞ "acehkr"
+          alphabet_soup("geek") ➞ "eegk"
+          alphabet_soup("javascript") ➞ "aacijprstv"
+
+    4. Suppose that you invest $10,000 for 10 years at an interest rate of 6% compounded monthly. What will be the value of your investment at the end of the 10 year period?
+       Create a function that accepts the principal p, the term in years t, the interest rate r, and the number of compounding periods per year n. The function returns the value        at the end of term rounded to the nearest cent.
+
+          For the example above:
+          compound_interest(10000, 10, 0.06, 12) ➞ 18193.97
+          Note that the interest rate is given as a decimal and n=12 because with monthly compounding there are 12 periods per year. Compounding can also be done annually,                 quarterly, weekly, or daily.
+          
+          Examples
+          compound_interest(100, 1, 0.05, 1) ➞ 105.0
+          compound_interest(3500, 15, 0.1, 4) ➞ 15399.26
+          compound_interest(100000, 20, 0.15, 365) ➞ 2007316.26
+
+     5. Write a function that takes a list of elements and returns only the integers.
+
+          Examples
+          return_only_integer([9, 2, "space", "car", "lion", 16]) ➞ [9, 2, 16]
+          return_only_integer(["hello", 81, "basketball", 123, "fox"]) ➞ [81, 123]
+          return_only_integer([10, "121", 56, 20, "car", 3, "lion"]) ➞ [10, 56, 20, 3]
+          return_only_integer(["String",  True,  3.3,  1]) ➞ [1]
 
 [**Python Programming Basic Assignment_22.ipynb**](https://github.com/deepgupta06/dsfs/blob/main/Assignment/Python%20Programming%20Basic%20Assignment/Python%20Programming%20Basic%20Assignment_22.ipynb)
 
+  1. Create a function that takes three parameters where:
+
+      •	x is the start of the range (inclusive).
+      •	y is the end of the range (inclusive).
+      •	n is the divisor to be checked against.
+      Return an ordered list with numbers in the range that are divisible by the third parameter n. Return an empty list if there are no numbers that are divisible by n.
+      Examples
+      list_operation(1, 10, 3) ➞ [3, 6, 9]
+      list_operation(7, 9, 2) ➞ [8]
+      list_operation(15, 20, 7) ➞ []
+
+  2. Create a function that takes in two lists and returns True if the second list follows the first list by one element, and False otherwise. In other words, determine if the        second list is the first list shifted to the right by 1.
+
+        Examples
+        simon_says([1, 2], [5, 1]) ➞ True
+        simon_says([1, 2], [5, 5]) ➞ False
+        simon_says([1, 2, 3, 4, 5], [0, 1, 2, 3, 4]) ➞ True
+        simon_says([1, 2, 3, 4, 5], [5, 5, 1, 2, 3]) ➞ False
+        Notes
+        •	Both input lists will be of the same length, and will have a minimum length of 2.
+        •	The values of the 0-indexed element in the second list and the n-1th indexed element in the first list do not matter.
+
+  3. A group of friends have decided to start a secret society. The name will be the first letter of each of their names, sorted in alphabetical order.
+     Create a function that takes in a list of names and returns the name of the secret society.
+  
+      Examples
+      society_name(["Adam", "Sarah", "Malcolm"]) ➞ "AMS"
+      society_name(["Harry", "Newt", "Luna", "Cho"]) ➞ "CHLN"
+      society_name(["Phoebe", "Chandler", "Rachel", "Ross", "Monica", "Joey"])
+
+
+  4. An isogram is a word that has no duplicate letters. Create a function that takes a string and returns either True or False depending on whether or not it's an "isogram".
+
+      Examples
+      is_isogram("Algorism") ➞ True
+
+      is_isogram("PasSword") ➞ False
+      # Not case sensitive.
+
+      is_isogram("Consecutive") ➞ False
+      Notes
+      •	Ignore letter case (should not be case sensitive).
+      •	All test cases contain valid one word strings.
+
+  5. Create a function that takes a string and returns True or False, depending on whether the characters are in order or not.
+      Examples
+      is_in_order("abc") ➞ True
+      is_in_order("edabit") ➞ False
+      is_in_order("123") ➞ True
+      is_in_order("xyzz") ➞ True
+      Notes
+      You don't have to handle empty strings.
+
+
 [**Python Programming Basic Assignment_23.ipynb**](https://github.com/deepgupta06/dsfs/blob/main/Assignment/Python%20Programming%20Basic%20Assignment/Python%20Programming%20Basic%20Assignment_23.ipynb)
+
+  1. Create a function that takes a number as an argument and returns True or False depending on whether the number is symmetrical or not. A number is symmetrical when it is the      same as its reverse.
+
+        Examples
+        is_symmetrical(7227) ➞ True
+        is_symmetrical(12567) ➞ False
+        is_symmetrical(44444444) ➞ True
+        is_symmetrical(9939) ➞ False
+        is_symmetrical(1112111) ➞ True
+
+  2. Given a string of numbers separated by a comma and space, return the product of the numbers.
+
+        Examples
+        multiply_nums("2, 3") ➞ 6
+        multiply_nums("1, 2, 3, 4") ➞ 24
+        multiply_nums("54, 75, 453, 0") ➞ 0
+        multiply_nums("10, -2") ➞ -20
+
+  3. Create a function that squares every digit of a number.
+
+        Examples
+        square_digits(9119) ➞ 811181
+        square_digits(2483) ➞ 416649
+        square_digits(3212) ➞ 9414
+        Notes
+        The function receives an integer and must return an integer.
+
+  4. Create a function that sorts a list and removes all duplicate items from it.
+
+        Examples
+        setify([1, 3, 3, 5, 5]) ➞ [1, 3, 5]
+        setify([4, 4, 4, 4]) ➞ [4]
+        setify([5, 7, 8, 9, 10, 15]) ➞ [5, 7, 8, 9, 10, 15]
+        setify([3, 3, 3, 2, 1]) ➞ [1, 2, 3]
+
+  5. Create a function that returns the mean of all digits.
+
+        Examples
+        mean(42) ➞ 3
+        mean(12345) ➞ 3
+        mean(666) ➞ 6
+        Notes
+        •	The mean of all digits is the sum of digits / how many digits there are (e.g. mean of digits in 512 is (5+1+2)/3(number of digits) = 8/3=2).
+        •	The mean will always be an integer.
 
 [**Python Programming Basic Assignment_24.ipynb**](https://github.com/deepgupta06/dsfs/blob/main/Assignment/Python%20Programming%20Basic%20Assignment/Python%20Programming%20Basic%20Assignment_24.ipynb)
 
+  1. Create a function that takes an integer and returns a list from 1 to the given number, where:
+        
+        i.	If the number can be divided evenly by 4, amplify it by 10 (i.e. return 10 times the number).
+        ii.	If the number cannot be divided evenly by 4, simply return the number.
+        
+        Examples
+        amplify(4) ➞ [1, 2, 3, 40]
+        amplify(3) ➞ [1, 2, 3]
+        amplify(25) ➞ [1, 2, 3, 40, 5, 6, 7, 80, 9, 10, 11, 120, 13, 14, 15, 160, 17, 18, 19, 200, 21, 22, 23, 240, 25]
+          Notes
+          •	The given integer will always be equal to or greater than 1.
+          •	Include the number (see example above).
+          •	To perform this problem with its intended purpose, try doing it with list comprehensions. If that's too difficult, just solve the challenge any way you can.
 
+  2. Create a function that takes a list of numbers and return the number that's unique.
 
+        Examples
+        unique([3, 3, 3, 7, 3, 3]) ➞ 7
+        unique([0, 0, 0.77, 0, 0]) ➞ 0.77
+        unique([0, 1, 1, 1, 1, 1, 1, 1]) ➞ 0
+        Notes
+        Test cases will always have exactly one unique number while all others are the same.
+
+  3. Your task is to create a Circle constructor that creates a circle with a radius provided by an argument. The circles constructed must have two getters getArea() (PIr^2) and      getPerimeter() (2PI*r) which give both respective areas and perimeter (circumference).
+     For help with this class, I have provided you with a Rectangle constructor which you can use as a base example.
+
+        Examples
+        circy = Circle(11)
+        circy.getArea()
+        # Should return 380.132711084365
+        circy = Circle(4.44)
+        circy.getPerimeter()
+        # Should return 27.897342763877365
+        Notes
+        Round results up to the nearest integer.
+
+  4. Create a function that takes a list of strings and return a list, sorted from shortest to longest.
+
+        Examples
+        sort_by_length(["Google", "Apple", "Microsoft"])
+        ➞ ["Apple", "Google", "Microsoft"]
+
+        sort_by_length(["Leonardo", "Michelangelo", "Raphael", "Donatello"])
+        ➞ ["Raphael", "Leonardo", "Donatello", "Michelangelo"]
+
+        sort_by_length(["Turing", "Einstein", "Jung"])
+        ➞ ["Jung", "Turing", "Einstein"]
+        Notes
+        All test cases contain lists with strings of different lengths, so you won't have to deal with multiple strings of the same length.
+
+  5. Create a function that validates whether three given integers form a Pythagorean triplet. The sum of the squares of the two smallest integers must equal the square of the        largest number to be validated.
+
+        Examples
+        is_triplet(3, 4, 5) ➞ True
+        # 3² + 4² = 25
+        # 5² = 25
+
+        is_triplet(13, 5, 12) ➞ True
+        # 5² + 12² = 169
+        # 13² = 169
+
+        is_triplet(1, 2, 3) ➞ False
+        # 1² + 2² = 5
+        # 3² = 9
+        Notes
+        Numbers may not be given in a sorted order.
