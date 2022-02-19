@@ -1,8 +1,9 @@
 #### Hi, This repository is created for my Data science full stack developer course.
 ##### Assignment folder contains all the completed assignment
 
-###Directory:
-####dsfs/Assignment/Python Programing Basic Assignment
+### Directory:
+
+#### dsfs/Assignment/Python Programing Basic Assignment
 
 [**Python Programming Basic Assignment_1.ipynb**](https://github.com/deepgupta06/dsfs/blob/main/Assignment/Python%20Programming%20Basic%20Assignment/Python%20Programming%20Basic%20Assignment_1.ipynb)
   1. Write a Python program to print “Hello Python”?
@@ -253,19 +254,19 @@
     
     Examples
     is_curzon(5) ➞ True
-    # 2 ** 5 + 1 = 33
-    # 2 * 5 + 1 = 11
-    # 33 is a multiple of 11
+    #2 ** 5 + 1 = 33
+    #2 * 5 + 1 = 11
+    #33 is a multiple of 11
 
     is_curzon(10) ➞ False
-    # 2 ** 10 + 1 = 1025
-    # 2 * 10 + 1 = 21
-    # 1025 is not a multiple of 21
+    #2 ** 10 + 1 = 1025
+    #2 * 10 + 1 = 21
+    #1025 is not a multiple of 21
 
     is_curzon(14) ➞ True
-    # 2 ** 14 + 1 = 16385
-    # 2 * 14 + 1 = 29
-    # 16385 is a multiple of 29
+    #2 ** 14 + 1 = 16385
+    #2 * 14 + 1 = 29
+    #16385 is a multiple of 29
 
   4. Given the side length x find the area of a hexagon.
  
@@ -282,11 +283,11 @@
     value of an 8 bit binary numbers are (256, 128, 64, 32, 16, 8, 4, 2, 1).
     Examples
     binary(1) ➞ "1"
-    # 1*1 = 1
+    #1*1 = 1
     binary(5) ➞ "101"
-    # 1*1 + 1*4 = 5
+    #1*1 + 1*4 = 5
     binary(10) ➞ "1010"
-    # 1*2 + 1*8 = 10
+    #1*2 + 1*8 = 10
 
 [**Python Programming Basic Assignment_17.ipynb**](https://github.com/deepgupta06/dsfs/blob/main/Assignment/Python%20Programming%20Basic%20Assignment/Python%20Programming%20Basic%20Assignment_17.ipynb)
   1. Create a function that takes three arguments a, b, c and returns the sum of the numbers that are evenly divided by c from the range a, b inclusive.
@@ -381,7 +382,7 @@
 
       Examples
       move_to_end([1, 3, 2, 4, 4, 1], 1) ➞ [3, 2, 4, 4, 1, 1]
-      # Move all the 1s to the end of the array.
+      #Move all the 1s to the end of the array.
       move_to_end([7, 8, 9, 1, 2, 3, 4], 9) ➞ [7, 8, 1, 2, 3, 4, 9]
       move_to_end(["a", "a", "a", "b"], "a") ➞ ["b", "a", "a", "a"]
 
@@ -406,11 +407,11 @@
 
       Examples
       num_layers(1) ➞ "0.001m"
-      # Paper folded once is 1mm (equal to 0.001m)
+      #Paper folded once is 1mm (equal to 0.001m)
       num_layers(4) ➞ "0.008m"
-      # Paper folded 4 times is 8mm (equal to 0.008m)
+      #Paper folded 4 times is 8mm (equal to 0.008m)
       num_layers(21) ➞ "1048.576m"
-      # Paper folded 21 times is 1048576mm (equal to 1048.576m)
+      #Paper folded 21 times is 1048576mm (equal to 1048.576m)
 
   4. Create a function that takes a single string as argument and returns an ordered list containing the indices of all capital letters in the string.
 
@@ -563,7 +564,7 @@
       is_isogram("Algorism") ➞ True
 
       is_isogram("PasSword") ➞ False
-      # Not case sensitive.
+      #Not case sensitive.
 
       is_isogram("Consecutive") ➞ False
       Notes
@@ -657,10 +658,10 @@
         Examples
         circy = Circle(11)
         circy.getArea()
-        # Should return 380.132711084365
+        #Should return 380.132711084365
         circy = Circle(4.44)
         circy.getPerimeter()
-        # Should return 27.897342763877365
+        #Should return 27.897342763877365
         Notes
         Round results up to the nearest integer.
 
@@ -682,15 +683,15 @@
 
         Examples
         is_triplet(3, 4, 5) ➞ True
-        # 3² + 4² = 25
-        # 5² = 25
+        #3² + 4² = 25
+        #5² = 25
 
         is_triplet(13, 5, 12) ➞ True
-        # 5² + 12² = 169
-        # 13² = 169
+        #5² + 12² = 169
+        #13² = 169
 
         is_triplet(1, 2, 3) ➞ False
-        # 1² + 2² = 5
-        # 3² = 9
+        #1² + 2² = 5
+        #3² = 9
         Notes
         Numbers may not be given in a sorted order.
